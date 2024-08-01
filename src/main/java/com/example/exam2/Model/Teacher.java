@@ -16,6 +16,6 @@ public class Teacher {
     private String name;
 
 
-    @NotNull(message = "Salary should not be Empty!")
+    @NotNull(message = "Salary should not be Null!")
    private int salary;
 }
